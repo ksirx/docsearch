@@ -1,3 +1,4 @@
-find written_2 > find-$1
-grep ".txt" find-$1 > grep-$1
-wc grep-$1 
+find technical > find-results.txt
+grep "technical/biomed" find-results.txt > grep-results.txt
+grep "base pair" grep-results.txt > bp-grep-results.txt
+
